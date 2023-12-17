@@ -5,12 +5,25 @@ public class Electronics extends Product {
     public Electronics(){
     }
 
-    
+
     public Electronics(String productID, String productName, int noOfAvailableItems, int price, String brand, int warrantyPeriod){
         super(productID, productName, noOfAvailableItems, price);
         this.brand=brand;
         this.warrantyPeriod=warrantyPeriod;
 
+
+        public String getBrand(){
+            return brand;
+        }
+        public void setBrand(brand){
+            this.brand=brand;
+        }
+        public String getWarrantyPeriod(){
+            return warrantyPeriod;
+        }
+        public void setWarrantyPeriod(warrantyPeriod){
+            this.warrantyPeriod=warrantyPeriod;
+        }
     }
     
 }
