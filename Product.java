@@ -1,6 +1,4 @@
-import java.io.Serializable;
-
-abstract public class Product implements Serializable{
+abstract public class Product{
     private String productID;
     private String productName;
     private int noOfAvailableItems;
