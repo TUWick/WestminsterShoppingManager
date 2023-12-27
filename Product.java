@@ -4,7 +4,7 @@ abstract public class Product{
     private int noOfAvailableItems;
     private double price;
 
-    public Products(){
+    public Product(){
     }
 
     public String Product(String productID,String productName,int noOfAvailableItems,double price){
