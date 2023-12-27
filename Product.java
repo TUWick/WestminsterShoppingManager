@@ -2,12 +2,12 @@ abstract public class Product{
     private String productID;
     private String productName;
     private int noOfAvailableItems;
-    private int price;
+    private double price;
 
     public Products(){
     }
 
-    public String Product(String productID,String productName,int noOfAvailableItems,int price){
+    public String Product(String productID,String productName,int noOfAvailableItems,double price){
         this.productID=productID;
         this.productName=productName;
         this.noOfAvailableItems=noOfAvailableItems;
