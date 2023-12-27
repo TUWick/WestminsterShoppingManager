@@ -1,25 +1,25 @@
 public class Clothing extends Product {
-    private int size;
+    private String size;
     private String colour;
 
     public Clothing(){
     }
 
-    public Clothing(String productID, String productName, int noOfAvailableItems, int price, int size, String colour) {
+    public Clothing(String productID, String productName, int noOfAvailableItems, double price, String size, String colour) {
         super(productID, productName, noOfAvailableItems, price);
         this.size=size;
         this.colour=colour;
 
-        public int getSize(){
+        public String getSize(){
             return size;
         }
-        public void setSize(size){
+        public void setSize(String size){
             this.size=size;
         }
         public String getColour(){
             return colour;
         }
-        public void setColour(colour){
+        public void setColour(String colour){
             this.colour=colour;
         }
     }
