@@ -13,10 +13,18 @@ public class User {
       return username;
     }
   
+    public void setUsername(String username) {
+      this.username = username;
+    }
+    
     public String getPassword() { // Fetch password - Getter
       return password;
     }
     
+    public void setPassword(String password) {
+      this.password = password;
+  }
+
     public ShoppingCart getCart() { // Fetch Cart method - Getter
       return cart;
     }
