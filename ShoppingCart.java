@@ -8,7 +8,7 @@ public class ShoppingCart {
 
   // Construct an empty cart - Aggregation relationship with product class
   public ShoppingCart() {
-    items = new ArrayList<>();
+    this.items = new ArrayList<>();
   }
   
   // Method to add product to the cart
@@ -23,10 +23,15 @@ public class ShoppingCart {
   
   // Method to calculate the total price of all products in the cart
   public double calculateTotalPrice() {
-    double totalPrice = 0;
+    double totalPrice = 0.0;
     for (Product product : items) {
       totalPrice += product.getPrice();
     }
     return totalPrice;
   }
+
+  // Getter for the list of products
+  public List<Product> getProducts() {
+    return items;
+}
 }

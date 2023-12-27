@@ -16,7 +16,7 @@ public class User {
     public void setUsername(String username) {
       this.username = username;
     }
-    
+
     public String getPassword() { // Fetch password - Getter
       return password;
     }
@@ -28,4 +28,8 @@ public class User {
     public ShoppingCart getCart() { // Fetch Cart method - Getter
       return cart;
     }
+
+    public void setCart(ShoppingCart cart) {
+      this.cart = cart;
+  }
 }
